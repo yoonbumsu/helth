@@ -37,6 +37,7 @@
  		script.println("<script>");
  		script.println("alert('정보를 다 입력해주세요 ')");
  		script.println("histroy.back()");
+ 		script.println("location.href='main.jsp'");
  		script.println("</script>");
  		
  	}else{
@@ -47,13 +48,14 @@
  		script.println("<script>");
  		script.println("alert('이미 존재하는 아이디입니다.')");
  		script.println("histroy.back()");
+ 		script.println("location.href='main.jsp'");
  		script.println("</script>");
  		
   	}else{
   		session.setAttribute("userID",user.getUserID());
  		PrintWriter script=response.getWriter();
  		script.println("<script>");
- 		script.println("location.href='main.jsp'");
+ 		script.println("window.location.href='main.jsp'");
  		
  		script.println("</script>");
  		

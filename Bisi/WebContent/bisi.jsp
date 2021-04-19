@@ -8,6 +8,7 @@
 <meta charset="UTF-8">
 <meta name="viewprot" content="width=device-width",initial-scale="1">
  <link rel="stylesheet" href="css/bootstrap.css"> 
+  <link rel="stylesheet" href="css/style.css"> 
 <title>JSP 게시판 웹 사이트</title>
 </head>
 <body>
@@ -73,11 +74,11 @@
   	<div class="center">
   <nav id="list">
   	<ol>
-  		<li>전체</li>
-  		<li>상체</li>
-  		<li>하체</li>
-  		<li>질문</li>
-  		<li>잡담</li>
+  		<li class="active" ><a href="bisi.jsp">전체</li>
+  		<li><a href="upper.jsp">상체</li>
+  		<li><a href="bottom.jsp">하체</li>
+  		<li><a href="question.jsp">질문</li>
+  		<li><a href="chat.jsp">잡담</li>
   	</ol>
   
   </nav>
@@ -86,6 +87,7 @@
   	 	<table class="table talbe-striped" style="text-align:center;border:1px solid:#dddddd">
   		<thead>
   			<th style="background-color:#eeeeee;text-align:center;">탭</th>
+  			<th style="background-color:#eeeeee;text-align:center;">사진</th>
   			<th style="background-color:#eeeeee;text-align:center;">제목</th>
   			<th style="background-color:#eeeeee;text-align:center;">작성자</th>
   			<th style="background-color:#eeeeee;text-align:center;">작성일</th>
@@ -93,6 +95,7 @@
   		<tbody>
   					<tr>
   					<td>상체</td>
+  					<td>사진</td>
   					<td>헬창쓰 하이</td>
   					<td>윤범수</td>
   					<td>2021-04-15 </td>

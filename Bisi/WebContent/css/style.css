@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body nav ol {
+  font-size: 24px;
+  list-style: none;
+  float: left;
+  
+}
+
+div.collapse.navbar-collapse {
+  font-family: Calibri;
+  font-size: 14px;
+  line-height: 0px;
+}
+
+a.navbar-brand {
+  font-size: 36px;
+  padding-left: 30px;
+  padding-top: 40px;
+}
+
+ul.nav.navbar-nav {
+  padding-top: 30px;
+}
+
+a.dropddown-toggle {
+  padding-right: 30px;
+}
+
+nav ol li {
+  padding-top: 30px;
+}
+
+div.row {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  
+  color: #000000;
+  
+}
+
+div.navbar-header {
+  height: 100px;
+}
+
+body div div {
+width: 1000px;
+float: left;
